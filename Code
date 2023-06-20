@@ -25,5 +25,3 @@ async def square(ctx, num: int):
     await ctx.send(f"The square of {num} is {square_value}")
 
 bot.run("YOUR_BOT_TOKEN")
-
-//Make sure you replace "YOUR_BOT_TOKEN" with the actual token of your Discord bot. You can obtain a bot token by creating a new bot on the Discord Developer Portal.
